@@ -113,7 +113,7 @@ if uploaded:
     c1, c2 = st.columns(2)
 
     with c1:
-        st.image(image, use_container_width=True)
+        st.image(image, use_column_width=True)
 
     with c2:
         st.markdown('<div class="card">', unsafe_allow_html=True)
